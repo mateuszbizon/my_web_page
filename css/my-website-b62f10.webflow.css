@@ -115,7 +115,7 @@
   line-height: 28px;
 }
 
-.primary {
+.primary-button {
   background-color: var(--primary);
   cursor: pointer;
   border-radius: 25px;
@@ -130,11 +130,11 @@
   display: block;
 }
 
-.primary:hover {
+.primary-button:hover {
   background-color: var(--primary-hover);
 }
 
-.primary.primary-big {
+.primary-button.primary-big {
   vertical-align: baseline;
   border-radius: 15px;
   width: 100%;
@@ -147,18 +147,18 @@
   display: none;
 }
 
-.primary.primary-form {
+.primary-button.primary-form {
   border-radius: 16px;
   width: 100%;
   max-width: 400px;
   margin-top: 0;
 }
 
-.primary.primary-header {
+.primary-button.primary-header {
   display: block;
 }
 
-.primary.primary-project {
+.primary-button.primary-project {
   display: inline-block;
 }
 
@@ -688,8 +688,8 @@
 
 .reviews-text-box {
   height: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   overflow: hidden;
 }
 
@@ -760,6 +760,12 @@
 .right-arrow {
   inset: auto 0% 5% auto;
   overflow: visible;
+}
+
+.reviews-btn-row {
+  justify-content: center;
+  margin-top: 40px;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -845,7 +851,7 @@
     font-size: 40px;
   }
 
-  .primary.primary-form {
+  .primary-button.primary-form {
     max-width: none;
   }
 
@@ -911,7 +917,7 @@
     font-size: 35px;
   }
 
-  .primary.primary-big {
+  .primary-button.primary-big {
     padding: 20px 30px;
     font-size: 20px;
     line-height: 25px;
@@ -959,7 +965,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-c855b509-cf49-fbc0-ba62-2bcfc4da0870-ff7f67ca, #w-node-c855b509-cf49-fbc0-ba62-2bcfc4da0870-d03c434c, #w-node-c855b509-cf49-fbc0-ba62-2bcfc4da0870-2cf8238d, #w-node-c855b509-cf49-fbc0-ba62-2bcfc4da0870-95e879df {
+  #w-node-c855b509-cf49-fbc0-ba62-2bcfc4da0870-ff7f67ca, #w-node-c855b509-cf49-fbc0-ba62-2bcfc4da0870-d03c434c, #w-node-c855b509-cf49-fbc0-ba62-2bcfc4da0870-2cf8238d, #w-node-c855b509-cf49-fbc0-ba62-2bcfc4da0870-95e879df, #w-node-c855b509-cf49-fbc0-ba62-2bcfc4da0870-a3d132ec {
     order: -9999;
   }
 }
